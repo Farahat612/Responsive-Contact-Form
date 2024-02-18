@@ -109,6 +109,39 @@ body {
     border-top-right-radius: inherit;
 }
 
+/* Each Form input Element container*/
+.form-group {
+    margin-bottom: 2rem;
+}
+
+/* Each Form input Element*/
+.form-group .form-control {
+    border: none;
+    border-bottom: 1px solid #5edcd42c;
+    border-radius: 0;
+    padding: 1rem 0;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #c7c7c7bd;
+    caret-color: #fff; /* Color of the cursor in the input field */
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Form Input Place Holder*/
+.form-group .form-control::placeholder {
+    color: #ffffff69;
+    font-size: small;
+    letter-spacing: 0.1rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transition: all 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+
+
 
 
 
