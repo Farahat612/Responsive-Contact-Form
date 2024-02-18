@@ -140,6 +140,30 @@ body {
     transition: all 0.3s ease-in-out; /* Add a smooth transition effect */
 }
 
+/* Text area placeholder*/
+.form-group #message::placeholder {
+    top: 80%;
+    transition: all 0.4s ease-in-out;
+}
+
+/* Form input on click */
+.form-group .form-control:focus {
+    background: transparent;
+    outline: none;
+    border-bottom: 0.5px solid var(--ensurance-btn);
+    box-shadow: none;
+}    
+
+/* Forom input placeholder on click */
+/* Shift placeholder text to left-top corner when the input is focused or not empty */
+.form-control:focus::placeholder, .form-group #message:focus::placeholder ,
+.form-control:not(:placeholder-shown)::placeholder {
+    color: #ffffff1a;
+    top: 5%; 
+    left: 0;
+    
+}
+
 
 
 
