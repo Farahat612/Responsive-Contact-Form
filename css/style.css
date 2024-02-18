@@ -228,6 +228,44 @@ body {
     z-index: 1;
 }
 
+/* Content Container*/
+.left-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* To make the Location button at bottom */
+}
+
+.contact-details p {
+    line-height: 2.3rem;
+}
+
+/* Contact Details Icons*/
+.contact-details .contact-icons {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+
+/* Social Media Icons*/
+.social-icons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    margin-right: 2rem;
+}
+
+/* Location Button at bottom*/
+.location {
+    margin-top: auto;
+}
+/* --------- End Of Left Column ---------*/
 
 
 
