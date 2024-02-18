@@ -77,3 +77,40 @@ body {
 
 /* ==================== End Of Global Styles ==================== */
 
+
+
+
+/*
+======================================================
+    Contact Section
+======================================================
+*/
+/* Contact whole box */
+.contact-row {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/* Box Headings*/
+.contact-form h2, .contact-details h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+======================================================
+    End Of Contact Section
+======================================================
+*/
