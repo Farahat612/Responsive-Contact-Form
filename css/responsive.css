@@ -42,3 +42,64 @@
     }
 }
 
+
+
+/* Very Extra Small Screens*/
+@media (576px >= width) {
+
+    /* No Styles yet*/
+    #contact .row {
+        width : 90% !important;
+        margin: auto !important;
+    }
+
+    #contact .left {
+        border-top-right-radius: inherit ;
+        border-top-left-radius: inherit;
+        border-bottom-right-radius: 0 ;
+        border-bottom-left-radius: 0;
+    }
+
+    #contact .left-back {
+        border-top-right-radius: inherit ;
+        border-top-left-radius: inherit;
+        border-bottom-right-radius: 0 ;
+        border-bottom-left-radius: 0;
+    }
+    
+    #contact .right {
+        border-top-right-radius: 0 ;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: inherit ;
+        border-bottom-left-radius: inherit;
+    }
+
+
+    .contact-details p,  .social {
+        font-size: 0.95rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .contact-details h2, .contact-form h2 {
+        font-size: 1.2rem !important;
+        margin-bottom: 2rem !important;
+    }
+    
+    .social .fs-5 {
+        margin-bottom: 0.5rem !important;
+        font-size: 0.95rem !important;
+    }
+}
+
+
+
+
+
+
+/* ---------- Media Queries for Contact Section ----------*/
+
+/*
+======================================================
+    End Of Contact Section
+======================================================
+*/
