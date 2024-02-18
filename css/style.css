@@ -165,7 +165,27 @@ body {
 }
 
 
+/* Form Submit Button*/
+.contact-submit {
+    width: 100%;
+    padding: 1.5rem 0;
+    text-align: center;
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
 
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: var(--text-color);
+
+    letter-spacing: 0.3rem;
+}
+
+/* Form Submit Button on hover*/
+.contact-submit:hover {
+    background-position: right center; 
+}
 
 
 
