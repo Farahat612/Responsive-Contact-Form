@@ -24,15 +24,20 @@
 
     .section-heading {
         font-size: 2.5rem !important;
+        margin-bottom: 1.5rem !important;
     }
 }
 
 
 /* Small Screens*/
 @media (768px <= width < 992px) {
+    .heading {
+        margin-bottom: 2.5rem !important;
+    }
 
     .section-heading {
         font-size: 2rem !important;
+        margin-bottom: 1.2rem !important;
     }
 }
 
@@ -43,8 +48,17 @@
 /*  Extra Small Screens*/
 @media  ( 576px <  width < 768px) {
 
+    .heading {
+        margin-bottom: 2rem !important;
+    }
+
     .section-heading {
         font-size: 1.6rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .lead {
+        font-size: 1.1rem !important;
     }
 
     #contact .left {
@@ -87,8 +101,18 @@
 /* Very Extra Small Screens*/
 @media (576px >= width) {
 
+    .heading {
+        margin-bottom: 1.5rem !important;
+    }
+
     .section-heading {
         font-size: 1.4rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .lead {
+        font-size: 1rem !important;
+        margin-bottom: 0.5rem !important;
     }
 
 
