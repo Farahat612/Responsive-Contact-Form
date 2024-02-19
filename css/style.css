@@ -334,4 +334,29 @@ dialog::backdrop {
 }
 
 
+.location-modal .location-modal-address {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.location-modal .location-modal-address p, .location-modal .location-modal-address h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--background-color);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0;
+}
+
+.location-modal .close-modal {
+    width: 80%;
+    margin: 2.2rem auto 1rem;
+    border-radius: inherit;
+}
+
+
+
+
 
