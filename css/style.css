@@ -305,3 +305,33 @@ dialog::backdrop {
 }
 
 
+/* ------------------------- Location Modal Styles -------------------------*/
+
+.location-modal .section-heading {
+    color: var(--background-color) !important;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 1rem auto 2.5rem auto;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+
+.location-modal .location-modal-map {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.location-modal .location-map {
+    width: 95%;
+    height: 300px;
+    display: inline-block;
+    margin: auto;
+    border-top-right-radius: 0.1rem;
+    border-bottom-left-radius: 0.1rem;
+    border-bottom-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
