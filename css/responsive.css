@@ -4,9 +4,49 @@
 ======================================================
 */
 /* ---------- Media Queries for Contact Section ----------*/
-/*  Small Screens*/
+
+/* Extra Large Screens*/
+@media (width >= 1400px) {
+
+    /**/
+}
+
+
+/*  Large Screens*/
+@media (1200px <= width < 1400px) {
+
+    /**/
+}
+
+
+/* Medium Screens*/
+@media ( 992px <= width < 1200px) {
+
+    .section-heading {
+        font-size: 2.5rem !important;
+    }
+}
+
+
+/* Small Screens*/
+@media (768px <= width < 992px) {
+
+    .section-heading {
+        font-size: 2rem !important;
+    }
+}
+
+
+
+
+
+/*  Extra Small Screens*/
 @media  ( 576px <  width < 768px) {
-    /* No Styles yet*/
+
+    .section-heading {
+        font-size: 1.6rem !important;
+    }
+
     #contact .left {
         border-top-right-radius: inherit ;
         border-top-left-radius: inherit;
@@ -47,7 +87,11 @@
 /* Very Extra Small Screens*/
 @media (576px >= width) {
 
-    /* No Styles yet*/
+    .section-heading {
+        font-size: 1.4rem !important;
+    }
+
+
     #contact .row {
         width : 90% !important;
         margin: auto !important;
