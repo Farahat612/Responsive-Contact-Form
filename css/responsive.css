@@ -94,6 +94,10 @@
     .social .fs-5 {
         margin-bottom: 0.5rem !important;
     }
+
+    .contact-submit {
+        font-size: 0.95rem !important;
+    }
 }
 
 
@@ -111,7 +115,7 @@
     }
 
     .lead {
-        font-size: 1rem !important;
+        font-size: 0.9rem !important;
         margin-bottom: 0.5rem !important;
     }
 
@@ -156,6 +160,10 @@
     .social .fs-5 {
         margin-bottom: 0.5rem !important;
         font-size: 0.95rem !important;
+    }
+
+    .contact-submit {
+        font-size: 0.75rem !important;
     }
 }
 
