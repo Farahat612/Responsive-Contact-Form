@@ -179,3 +179,52 @@
     End Of Contact Section
 ======================================================
 */
+
+
+
+
+
+/*
+======================================================
+    Modal
+======================================================
+*/
+
+/* ---------- Media Queries for Location Modal  ----------*/
+
+
+
+
+
+/* ---------- Media Queries for Location Modal   ----------*/
+
+/* Very Large Screens*/
+@media (width >= 1400px) {
+    /* No Styles yet*/
+    dialog { 
+        width: 50% !important;
+        margin: auto !important;
+    }
+    
+    dialog .section-heading {
+        font-size: 1.6rem !important; 
+    }
+
+    .location-modal .location-map {
+        width: 100%;
+        object-fit: cover;
+        display: inline-block;
+        margin: auto;
+        border-top-right-radius: 0.1rem;
+        border-bottom-left-radius: 0.1rem;
+        border-bottom-right-radius: 2.5rem;
+        border-top-left-radius: 2.5rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .location-modal .close-location-modal.location-modal .location-map {
+        padding: 0.7rem 0;
+    }
+}
+
+
